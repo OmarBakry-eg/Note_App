@@ -46,7 +46,7 @@ yargs.command({
     }
 });
 
-yargs.parse();
+yargs.parse(); // print while just calling the command
 
 //Run command => node app.js add --title="shopping" --body="New_DESC" 
 //You could change title and descrbe in builder to anything you wanna name.
